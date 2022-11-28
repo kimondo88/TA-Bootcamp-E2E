@@ -9,9 +9,9 @@ Feature: Bootcamp E2E
     When I Click the search
     Then I Check that at least one item appears
 
-  # Scenario: Internet shop logo button
-  #   When I Open "Today's Best Deals" tab
-  #   When I Click on the Internet shop logo (top right corner)
-  #   Then Check that the main page opened
+  Scenario: Internet shop logo button
+    When I Open "Today's Best Deals" tab
+    When I Click on the Internet shop logo
+    Then Check that the main page opened
 
   
