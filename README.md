@@ -75,5 +75,14 @@ or
 
 >npm test
 
+### Browser mode
+The tests are running default in headless mode, if you want to run with chrome browser on. Run this command in cmd or terminal.
+
+> yarn browser
+
+or 
+
+>npm browser
+
 ## That's it, you have project installed! 
 
