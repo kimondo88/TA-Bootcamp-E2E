@@ -48,10 +48,10 @@ Now you should have prerequisites installed.
 Open terminal or cmd. Navigate to folder where you want to install.
 
 #1 run in cmd or terminal
->git clone https://github.com/kimondo88/hometask-project-integration-test.git
+>git clone https://github.com/kimondo88/TA-Bootcamp-E2E.git
 
 when using ssh keys
->git clone [git@github.com:kimondo88/hometask-project-integration-test.git](git@github.com:kimondo88/hometask-project-integration-test.git)
+>git clone [git@github.com:kimondo88/TA-Bootcamp-E2E.git](git@github.com:kimondo88/TA-Bootcamp-E2E.git)
 
 if you have no ssh keys: check
 [adding ssh keys to agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
