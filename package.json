@@ -16,6 +16,6 @@
     },
     "scripts": {
         "test": "wdio run wdio.conf.js", 
-        "browser" : "yarn test browser"
+        "browser" : "wdio run wdio.conf.js browser"
     }
 }
