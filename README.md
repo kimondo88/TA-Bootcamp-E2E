@@ -1,32 +1,79 @@
 # TA-Bootcamp-E2E
 
-Develop E2E automated JS tests for https://www.newegg.com
+Developed E2E automated JS tests for https://www.newegg.com
 
-Create bootcamp.feature file with the following 2 scenarios. Prepare tests only for Desktop run
+# HOW TO INSTALL PROJECT
 
-Feature: Bootcamp E2E
+Ensure that you have node, git, npm or yarn installed.
 
-Scenario: Search bar
-1. Open the home page
-2. Close the promo banner if it appears
-3. Entry the word "Windows" in the search bar (top middle)
-4. Click the search
-5. Check that at least one item appears
+Type in command line, or terminal
 
-Scenario: Internet shop logo button
-1. Open the home page
-2. Close the promo banner if it appears
-3. Open "Today's Best Deals" tab
-4. Click on the Internet shop logo (top right corner)
-5. Check that the main page opened
+in windows search cmd or powershell in search bar, in linux use terminal
 
-# Extra requirements: 
-* For task set up WebdriverIO + Cucumber (As it was done in Cucumber lectures)
-* As you may already notice, the 2 first steps are the same for both scenarios. Please use `Background:` to reduce the number of steps.
-* Before sending me a task prepare README.md so I can run your tests. 
-* Good practice, avoid magic numbers (You can google if you don't know what it means)
-* Use consts for variables
-* For assertions use WebdriverIO
+> node --version
+>
+> git --version
+>
+> npm --version
+>or
+> yarn --version
 
-# Hint
-* For "Close the promo banner if it appears" 2 possible ideas. You can use try-catch. Or the banner disappears if you refresh the page when the banner appears.
+If one of those conditions aren't meet then:
+
+#1 Install [Node](https://nodejs.org/en/download/) from here
+
+#2 Install [Git](https://git-scm.com/downloads) from here
+
+#3 Npm comes with node, but yarn need to be enabled for use.
+
+for installing yarn check above command node --version
+
+>for node.js >=16.10
+>
+>Corepack is included by default with all Node.js installs, but is >currently opt-in. To enable it, run the following command in terminal or cmd:
+>
+>corepack enable
+
+
+> for Node.js <16.10
+>
+>Corepack isn't included with Node.js in versions before the 16.10; to address that, run:
+>
+>npm i -g corepack
+
+Now you should have prerequisites installed.
+
+## **Installation**
+
+Open terminal or cmd. Navigate to folder where you want to install.
+
+#1 run in cmd or terminal
+>git clone https://github.com/kimondo88/hometask-project-integration-test.git
+
+when using ssh keys
+>git clone [git@github.com:kimondo88/hometask-project-integration-test.git](git@github.com:kimondo88/hometask-project-integration-test.git)
+
+if you have no ssh keys: check
+[adding ssh keys to agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+after running git clone from above.
+
+#2 run in cmd or terminal
+>npm install 
+
+or 
+
+>yarn install 
+
+## **Running tests:**
+
+And now you can run tests with the following command in cmd or terminal when in project folder path
+
+>yarn test 
+
+or 
+
+>npm test
+
+## That's it, you have project installed! 
+

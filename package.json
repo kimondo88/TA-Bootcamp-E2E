@@ -1,5 +1,5 @@
 {
-    "name": "webdriverio-tests",
+    "name": "ta-bootcamp-e2e",
     "version": "0.1.0",
     "description": "",
     "private": true,
@@ -15,7 +15,7 @@
         "wdio-chromedriver-service": "^8.0.0"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js", 
-        "browser" : "yarn wdio browser"
+        "test": "wdio run wdio.conf.js", 
+        "browser" : "yarn test browser"
     }
 }
