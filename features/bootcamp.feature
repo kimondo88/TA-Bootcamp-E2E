@@ -1,17 +1,18 @@
 Feature: Bootcamp E2E
 
-  Background: I am guest on the homepage and i close promo banner if it pop up
+  Bootcamp endToEnd tests for newegg.com shop
+  
+  Background: 
     Given I am on the home page
-    When I close the promo banner if it appears
+    And I close the promo banner if it appears
 
   Scenario: Search bar
-    When I entry word "Windows" in the search bar 
-    When I Click the search
-    Then I Check that at least one item appears
+    When I type word "Windows" in the search bar 
+    When I Click the search bar icon
+    Then I Should have at least one item in the results
 
   Scenario: Internet shop logo button
     When I Open "Today's Best Deals" tab
-    When I Click on the Internet shop logo
-    Then Check that the main page opened
-
+    When I Click on the Internet shop cart logo
+    Then Check that the page with shopping cart open
   
